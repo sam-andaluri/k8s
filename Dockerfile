@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 
 # Ignore to update version here, it is controlled by .travis.yml and build.sh
 # docker build --no-cache --build-arg KUBECTL_VERSION=${tag} --build-arg HELM_VERSION=${helm} --build-arg KUSTOMIZE_VERSION=${kustomize_version} -t ${image}:${tag} .
